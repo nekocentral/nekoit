@@ -641,7 +641,7 @@ li.right,
 	top: 0px;
 	margin: 30px 0;
 	font-size: 35px;
-	line-height: 70px;
+	line-height: 70px !important;
 	width: 70px;
 	height: 70px;
 	background: #f22836;
