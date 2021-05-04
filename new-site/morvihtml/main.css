@@ -1,7 +1,7 @@
 
 /*** CSS  ***/
-html{ height: 100% }
-body { background: #fff; color: #454545; font-family: 'Open Sans', sans-serif, Times, serif; font-size: 14px; line-height: 24px;}
+html{ min-height: 100% }
+body { background: #fff; color: #454545; font-family: 'Open Sans', sans-serif, Times, serif; font-size: 14px; line-height: 24px; min-height: 100%;}
 a { outline:none; text-decoration: none; }
 a:hover { outline:none; text-decoration: none; }
 h2,h3,h4,h5{ font-weight: 600; font-family: Voltaire;}
@@ -675,7 +675,6 @@ li.right,
 	min-height: 280px; 
 	position:relative; 
 	-webkit-box-sizing: border-box;
-	margin: 60px auto 0;
 	height: 100%;
 	text-align:center;
 	-webkit-border-radius: 5px;
@@ -715,7 +714,7 @@ li.right,
 	font-weight: 700;
 	text-transform: uppercase;
 }
-.title{ padding: 40px 0 40px 0; text-align: center;}
+.title{ padding-top: 40px; text-align: center;}
 .title h2{ text-transform: uppercase;}
 .title p{ margin: 0 0 0px 0; }
 .bullerBr {	margin: 20px auto 30px;	width: 50%; }
