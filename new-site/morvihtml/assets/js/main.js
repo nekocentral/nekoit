@@ -58,32 +58,6 @@ jQuery(document).ready(function ($) {
 	  });
 	});
 /* ==============================================
-			Camera Slideshow
-=============================================== */
-	jQuery(function(){
-		jQuery('#camera_wrap_4').camera({
-			height: '50%',
-			loader: 'bar',
-			loaderColor: '#fff',
-			loaderBgColor: 'transparent', 
-			pagination: false,
-			thumbnails: false,
-			hover: false,
-			opacityOnGrid: true,
-			pauseOnClick: false,
-			imagePath: 'images/',
-			transPeriod: 2500,
-			fx: 'simpleFade' // 'mosaicReverse' mosaicRandom bottomLeftTopRight stampede mosaicSpiralReverse
-		});
-	});
-	
-	$(function() {
-		$( "#f-accordion" ).accordion({
-		  collapsible: true,
-		  heightStyle: "content"
-		});
-	  });
-/* ==============================================
 				Navbar Dropdown
 =============================================== */
 	jQuery(document).ready(function ($) {
